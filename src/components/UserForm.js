@@ -32,8 +32,8 @@ export class UserForm extends Component {
 
   render() {
     const { step } = this.state;
-    const { firstName, lasrtName, email, occupation, city } = this.state;
-    const values = { firstName, lasrtName, email, occupation, city };
+    const { firstName, lastName, email, occupation, city } = this.state;
+    const values = { firstName, lastName, email, occupation, city };
 
     switch (step) {
       case 1:
